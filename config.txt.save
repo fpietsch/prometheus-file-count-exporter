@@ -1,0 +1,2 @@
+DB_ERROR_STATE /tmp/test.txt error
+DB_LOG_STATE /tmp/test.txt log

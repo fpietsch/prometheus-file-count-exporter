@@ -1,0 +1,9 @@
+[Unit]
+Description=Count Exporter for Prometheus
+
+[Service]
+Type=simple
+ExecStart=/etc/count_exporter/count_exporter.py
+
+[Install]
+WantedBy=multi-user.target
